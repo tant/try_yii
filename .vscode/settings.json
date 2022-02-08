@@ -1,0 +1,10 @@
+{
+    "php.validate.executablePath": "/Applications/MAMP/bin/php/php7.4.21/bin/php",
+    "php.suggest.basic": false,
+    "php.validate.enable": false,
+    "emmet.excludeLanguages": [
+        "markdown",
+        "php"
+    ],
+    "php.debug.executablePath":  "/Applications/MAMP/bin/php/php7.4.21/bin/php",
+}
