@@ -38,11 +38,11 @@ The minimum requirement by this project template that your Web server supports P
 
 CÀI ĐẶT
 ------------
-Tải nguyên thư mục này về máy
-Tạo database và user cho database đó
-Sử dụng file createtables.sql để tạo các table cần thiết
-Cho Apache host thư mục web, không chép tất cả vào htdocs
-Thiết lập cấu hình database trong yii 
+- Tải nguyên thư mục này về máy
+- Tạo database và user cho database đó
+- Sử dụng file createtables.sql để tạo các table cần thiết
+- Cho Apache host thư mục web, không chép tất cả vào htdocs
+- Thiết lập cấu hình database trong yii 
 
 
 CẤU HÌNH
