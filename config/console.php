@@ -6,7 +6,8 @@ $db = require __DIR__ . '/db.php';
 $config = [
     'id' => 'basic-console',
     'basePath' => dirname(__DIR__),
-    'bootstrap' => ['log'],
+    // add pluto to bootstrap
+    'bootstrap' => ['log', 'pluto'],
     'controllerNamespace' => 'app\commands',
     'aliases' => [
         '@bower' => '@vendor/bower-asset',
@@ -26,6 +27,13 @@ $config = [
             ],
         ],
         'db' => $db,
+    ],
+    // add modules so I can add pluto
+    'modules' => [
+        'pluto' => [
+            'class' => 'sjaakp\pluto\Module',
+            // several options
+        ],
     ],
     'params' => $params,
     /*
